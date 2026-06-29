@@ -5,7 +5,7 @@ import Board from "@/components/Board";
 import Header from "@/components/Header";
 import NewTaskModal from "@/components/NewTaskModal";
 import EditTaskModal from "@/components/EditTaskModal";
-import { getTasks } from "@/service/taskService";
+import { getTasks } from "@/services/taskService";
 
 type Task = {
   id: string;
